@@ -1,6 +1,13 @@
-__pycache__/
-.ipynb_checkpoints/
+# Ignore data folders
 data/raw/
 data/processed/
+
+# Ignore models (big files)
 models/
-.env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+venv/
+.env/
